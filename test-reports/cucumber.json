@@ -1,0 +1,92 @@
+[
+  {
+    "uri": "features/sample.feature",
+    "id": "sample-feature",
+    "keyword": "Feature",
+    "name": "Sample Feature",
+    "description": "",
+    "line": 1,
+    "elements": [
+      {
+        "id": "sample-feature;sample-scenario",
+        "keyword": "Scenario",
+        "name": "Sample Scenario",
+        "description": "",
+        "line": 3,
+        "type": "scenario",
+        "before": [
+          {
+            "match": {
+              "location": "features/support/01_launch.rb:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 31931367000
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "the app has launched",
+            "line": 4,
+            "match": {
+              "location": "features/steps/sample_steps.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1754064000
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I have done a specific thing",
+            "line": 5,
+            "match": {
+              "location": "features/steps/sample_steps.rb:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 54000
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "I do something",
+            "line": 6,
+            "match": {
+              "location": "features/steps/sample_steps.rb:32"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 27000
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "something should happen",
+            "line": 7,
+            "match": {
+              "location": "features/steps/sample_steps.rb:41"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 18000
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "features/support/01_launch.rb:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1931836000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
